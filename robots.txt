@@ -1,0 +1,22 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+Allow: /assets/
+Allow: /css/
+Allow: /js/
+
+# Crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+# Sitemap
+Sitemap: https://axiomfinance.se/sitemap.xml

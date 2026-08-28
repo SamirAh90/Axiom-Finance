@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Home Page -->
+  <url>
+    <loc>https://axiomfinance.se/</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://axiomfinance.se/?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://axiomfinance.se/?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://axiomfinance.se/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://axiomfinance.se/"/>
+  </url>
+
+  <!-- About Page -->
+  <url>
+    <loc>https://axiomfinance.se/about.html</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://axiomfinance.se/about.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://axiomfinance.se/about.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://axiomfinance.se/about.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://axiomfinance.se/about.html"/>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://axiomfinance.se/contact.html</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://axiomfinance.se/contact.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://axiomfinance.se/contact.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://axiomfinance.se/contact.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://axiomfinance.se/contact.html"/>
+  </url>
+
+  <!-- GDPR & Privacy Policy -->
+  <url>
+    <loc>https://axiomfinance.se/gdpr.html</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://axiomfinance.se/gdpr.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="sv-SE" href="https://axiomfinance.se/gdpr.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://axiomfinance.se/gdpr.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://axiomfinance.se/gdpr.html"/>
+  </url>
+
+</urlset>
