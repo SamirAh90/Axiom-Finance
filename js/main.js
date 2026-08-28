@@ -112,7 +112,7 @@
             const isHighlighted = idx === 1;
             const amount = Number(plan.price.replace(/\D/g, ""));
             return `
-            <article class="pricing-card ${isHighlighted ? "highlighted" : ""}">
+            <article class="pricing-card ${isHighlighted ? "highlighted" : ""}" tabindex="0" role="region" aria-label="${plan.name}">
               ${isHighlighted ? '<div class="card-corner-cutout"></div>' : ""}
               <span class="pricing-register">${plan.register}</span>
               <h3 class="pricing-name">${plan.name}</h3>
@@ -171,6 +171,25 @@
           `;
           })
           .join("");
+
+        pricingContainer.querySelectorAll(".pricing-card").forEach((card) => {
+          card.addEventListener("click", (e) => {
+            if (e.target.closest(".pricing-cta-btn")) return;
+            const wasSelected = card.classList.contains("selected");
+            pricingContainer.querySelectorAll(".pricing-card").forEach((c) => c.classList.remove("selected"));
+            if (!wasSelected) {
+              card.classList.add("selected");
+            }
+          });
+
+          card.addEventListener("keydown", (e) => {
+            if (e.key === "Enter" || e.key === " ") {
+              if (e.target.closest(".pricing-cta-btn")) return;
+              e.preventDefault();
+              card.click();
+            }
+          });
+        });
       }
 
       // Stats
